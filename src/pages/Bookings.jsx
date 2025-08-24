@@ -10,7 +10,7 @@ function Bookings() {
   const [time, setTime] = useState("");
   const [seats, setSeats] = useState("");
   const [ticketType, setTicketType] = useState("");
-  const [editId, setEditId] = useState(null); // Track booking being edited
+  const [editId, setEditId] = useState(null); 
 
   // Ticket prices
   const ticketPrices = {
