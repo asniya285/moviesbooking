@@ -21,7 +21,7 @@ function Bookings() {
 
   // Load bookings from backend
   useEffect(() => {
-    axios.get("https://movieticket-backend.onrender.com/bookings").then((res) => {
+    axios.get("https://movieticket-11.onrender.com/").then((res) => {
       setBookings(res.data);
     });
 
